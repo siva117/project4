@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" guice-stage="DEVELOPMENT" parallel="tests">
+
+<test name="testNg First test">
+
+   <groups>
+      <run>
+          
+    <include name ="x"/> 
+    <include name ="y"/>
+    
+       </run>
+      </groups>
+   
+    <classes>
+         <class name="testnextG_2.Testcasesforanntations">
+        
+    </class>
+    </classes>
+
+</test> 
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest" guice-stage="DEVELOPMENT">
+<groups>
+<run>
+
+<include name= "x"></include>
+
+</run>
+
+</groups>
+  
+  <test thread-count="5" name="Basic Flows" verbose="2">
+    <classes>
+    
+       <class name="testnextG_2.Testcasesforanntations"/>
+      
+     
+    </classes>
+  </test> 
+  
+</suite> 
+            
